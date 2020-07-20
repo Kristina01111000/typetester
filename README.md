@@ -1,0 +1,2 @@
+# typetester
+test typing speed
