@@ -3,12 +3,12 @@ body {
   padding: 0;
 }
 
-.topHead {
+.topHeader {
   padding: 1em 2em;
   background-color: purple;
   color: white
 }
 
-.topHead h1 {
+.topHeader h1 {
   text-align: center:
 }
