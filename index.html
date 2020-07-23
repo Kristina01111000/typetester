@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang = 'en' dir = 'ltr'>
   <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'
+    <meta charset='utf-8'></meta>
+    <meta name='viewport' content='width=device-width, initial-scale=1'></meta>
     <title>Typing Speed Test</title>
-    <script src="app.js"></script>
+    <script> src="app.js"></script>
     <link rel="stylesheet" href='style.css'>
   </head>
   <body>
@@ -21,10 +21,13 @@
       <div class = "test-wrapper">
         <textarea name="test" rows="8" cols="80"  placeholder="The clock starts when you start typing"></textarea>
       </div>
+      <div>
+        <section id="clock">
+          <div class = "timer">00:00:00</div>
+        </section>
+        <button id = "reset">Start Over</button>
+      </div>
     </div>
-      <section id="clock">
-        <div class = "timer">00:00:00</div>
-      </section>
-      <button id = "reset">Start Over</button>
   </body>
 </html>
+
