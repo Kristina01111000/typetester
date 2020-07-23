@@ -1,14 +1,26 @@
-body {
+  body {
   margin: 0;
-  padding: 10px;
+  padding: 1em;
+    text-align: center;
 }
 
 .topHeader {
   padding: 1em 2em;
-  background-color: purple;
+  background-color: #00802b;
   color: white
 }
 
 .topHeader h1 {
-  text-align: center:
+  text-align: center;
+}
+
+.directions {
+  background-color: #00e64d;
+  color: white;
+  padding: 1em 2em;
+}
+
+.test-area {
+  background-color: #66ff99;
+  padding: 1em 2em;
 }
