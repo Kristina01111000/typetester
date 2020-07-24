@@ -4,7 +4,8 @@ test typing speed
 add javascript to:
 -  text box change color when mismatched
 -  reset button
--  timer 
+-  timer (start, end, leading 0) 
+-  spell checker
 
 functions to add:
 - add leading 0
