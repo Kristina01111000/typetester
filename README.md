@@ -7,9 +7,9 @@ connect javascript to:
 -  timer (start, end, leading 0) 
 -  spell checker
 -  start button
+-  leading zero
 
 functions to add:
-- add leading 0
 - run timer
 - spell checker
 - textbox color change
