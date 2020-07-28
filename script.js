@@ -3,7 +3,7 @@ const testArea = document.querySelector('#test-area');
 const testWrapper = document.querySelector('#test-wrapper');
 const directions = document.querySelector('#directions').innerHTML;
 const resetButton = document.querySelector('#reset');
-var timer = [0,0,0,0];
+var timer = [0,0,0]; // minutes, seconds, tenths of seconds
 var interval;
 var timerRunning = false;
 
@@ -21,7 +21,7 @@ function start(){
    let textLength = testArea.value.length;
    if(textLength === 0 && !timerRunning) {
      timerRunning = true;
-     interval = setInterval(runtimer, 10)
+     interval = setInterval(runtimer, 10) // runs every 0.1 seconds
    }
 }
 
