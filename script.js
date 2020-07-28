@@ -30,3 +30,4 @@ function start(){
 
 // event listeners for start, spellcheck, and reset button
 testArea.addEventListener('keypress', start, false);
+testArea.addEventListener('keyup', spellCheck,false);
