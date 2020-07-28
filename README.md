@@ -14,8 +14,3 @@ functions to add:
 - spell checker
 - textbox color change
 - reset
-
-Event listeners:
-- keypress -> start
-- keyup -> spellcheck
-- click -> reset
