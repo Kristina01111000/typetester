@@ -24,3 +24,9 @@ function start(){
      interval = setInterval(runtimer, 10)
    }
 }
+
+
+
+
+// event listeners for start, spellcheck, and reset button
+testArea.addEventListener('keypress', start, false);
