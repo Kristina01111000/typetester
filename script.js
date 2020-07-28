@@ -1,6 +1,6 @@
 const theTimer = document.querySelector('.timer'); 
 const testArea = document.querySelector('#test-area');
-
+const testWrapper = document.querySelector('#test-wrapper');
 var timer = [0,0,0,0};
 var interval;
 var timerRunning = false;
