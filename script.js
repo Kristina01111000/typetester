@@ -1,7 +1,7 @@
 const theTimer = document.querySelector('.timer'); 
 const testArea = document.querySelector('#test-area');
 const testWrapper = document.querySelector('#test-wrapper');
-const directions = document.querySelector('#directions');
+const directions = document.querySelector('#directions').innerHTML;
 var timer = [0,0,0,0};
 var interval;
 var timerRunning = false;
