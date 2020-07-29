@@ -41,4 +41,11 @@
   background: white;
   font-size: 1.2em;
   border: 12px solid red;
+  font-weight: bold;
 }
+
+#reset:hover {
+  color: white;
+  background-color: red;
+}
+
