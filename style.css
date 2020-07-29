@@ -31,3 +31,7 @@
   margin: 0 auto;
   max-width: 650px;
 }
+.timer{
+  font-size: 3em;
+  font-weight: bold;
+}
