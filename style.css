@@ -27,6 +27,7 @@
 #test-wrapper {
   border-radius: 15px;
   border: 10px solid grey;
+  max-width: 660px;
 }
 
 .write {
