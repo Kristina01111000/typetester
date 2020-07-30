@@ -24,8 +24,16 @@ function start(){
      interval = setInterval(runtimer, 10) // runs every 0.1 seconds
    }
 }
-
-
+// resets everything when button is clicked
+function reset() {
+  clearInterval(interval);
+  interval = null;
+  timer = [0,0,0,0]
+  timerRunning = false;
+  testArea.value = '';
+  theTimer.innerHTML = "00:00:00";
+  testWrapper.style.borderColor = "grey";
+}
 
 
 // event listeners for start, spellcheck, and reset button
