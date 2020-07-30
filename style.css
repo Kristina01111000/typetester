@@ -24,6 +24,10 @@
   background-color: #66ff99;
   padding: 1em 2em;
 }
+#test-wrapper {
+  border-radius: 15px;
+  border: 10px solid grey;
+}
 
 .write {
   background-color: #D3D3D3;
