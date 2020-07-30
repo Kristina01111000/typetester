@@ -8,9 +8,11 @@ connect javascript to:
 -  spell checker
 -  start button
 -  leading zero
+-  change inner html of text on click
 
 functions to add:
 - run timer
 - spell checker
 - textbox color change
-- reset
+- reset game
+- change text 
