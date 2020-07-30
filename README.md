@@ -14,5 +14,4 @@ functions to add:
 - run timer
 - spell checker
 - textbox color change
-- reset game
 - change text 
