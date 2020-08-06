@@ -13,5 +13,5 @@ connect javascript to index class/id:
 functions to add:
 - run timer
 - spell checker
-- textbox color change
+  - textbox color change inside
 - change text 
