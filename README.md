@@ -1,7 +1,7 @@
 # typetester
 test typing speed
 
-connect javascript to:
+connect javascript to index class/id:
 -  text box change color when mismatched
 -  reset button
 -  timer (start, end, leading 0) 
