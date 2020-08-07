@@ -15,7 +15,7 @@ function leadingZero(time){
   return time;
 }
 
-// run a a timer
+// run the timer
 function runTimer(){
   let currentTime = leadingZero(timer[0]) + ':' + leadingZero(timer[1]) + ':' +leadingZero(timer[2]);
   timer[3]++;
