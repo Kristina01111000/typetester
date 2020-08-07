@@ -21,6 +21,8 @@ function runTimer(){
   timer[3]++;
   theTimer.innerHTML = currentTime;
   
+  timer[0] = Math.floor((timer[3] / 100) / 60); // hours
+  
 }
 
 // start function -> detects first keystroke
