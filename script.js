@@ -15,6 +15,13 @@ function leadingZero(time){
   return time;
 }
 
+// run a a timer
+function runTimer(){
+  let currentTime = leadingZero(timer[0]) + ':' + leadingZero(timer[1]) + ':' +leadingZero(timer[2]);
+  timer[3]++;
+  theTimer.innerHTML = currentTime;
+  
+}
 
 // start function -> detects first keystroke
 function start(){
