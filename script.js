@@ -20,10 +20,10 @@ function runTimer(){
   let currentTime = leadingZero(timer[0]) + ':' + leadingZero(timer[1]) + ':' +leadingZero(timer[2]);
   timer[3]++;
   theTimer.innerHTML = currentTime;
-  // change the array bvalues
+  // change the array values
   timer[0] = Math.floor((timer[3] / 100) / 60); // hours
   timer[1] = Math.floor((timer[3] / 100) - timer[0] * 60); // minutes
-  
+  timer[2] = Math.floor((timer[3]) - (timer[0] * 100 * 60) - (timer[1]*100)); // seconds
 }
 
 // start function -> detects first keystroke
