@@ -11,7 +11,6 @@ connect javascript to index class/id:
 -  change inner html of text on click
 
 functions to add:
-- run timer
 - spell checker
   - textbox color change inside
 - change text 
