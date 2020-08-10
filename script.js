@@ -31,7 +31,11 @@ function spellCheck(){
   let textEntered = testArea.value;
   let originTextMatch = theText.substring(0,textEntered.length);
 
-  
+  // if they match stop the clock and change the border color
+  if (textEntered == textMatch){
+    clearInterval(interval);
+    testWrapper.style.borderColor = "#429890";
+  }
 }
 
 // start function -> detects first keystroke
