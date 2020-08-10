@@ -32,7 +32,7 @@ function spellCheck(){
   let originTextMatch = theText.substring(0,textEntered.length);
 
   // if they match stop the clock and change the border color
-  if (textEntered == textMatch){
+  if (textEntered == directions){
     clearInterval(interval);
     testWrapper.style.borderColor = "#429890";
   }
