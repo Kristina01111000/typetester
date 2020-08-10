@@ -26,6 +26,14 @@ function runTimer(){
   timer[2] = Math.floor((timer[3]) - (timer[0] * 100 * 60) - (timer[1]*100)); // seconds
 }
 
+// Match the test entered with the text on the page
+function spellCheck(){
+  let textEntered = testArea.value;
+  let originTextMatch = theText.substring(0,textEntered.length);
+
+  
+}
+
 // start function -> detects first keystroke
 function start(){
    let textLength = testArea.value.length;
