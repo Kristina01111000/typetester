@@ -11,6 +11,4 @@ connect javascript to index class/id: -> has issues with the connections not wor
 -  change inner html of text on click
 
 functions to add:
-- spell checker
-  - textbox color change inside
-- change text 
+- make user change text 
