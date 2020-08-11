@@ -37,8 +37,11 @@ function spellCheck(){
     testWrapper.style.borderColor = "#429890";
   } else {
     // if they match at char level change the border color
-    if (testEntered == textMatch)
-      testWrapper.style.borderColor = "#429890";
+    if (testEntered == textMatch){
+      testWrapper.style.borderColor = "#65CCF3";
+    } else {
+      testWrapper.style.borderColor = "#E95D0F";
+    }
   }
 }
 
