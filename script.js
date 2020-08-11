@@ -35,6 +35,10 @@ function spellCheck(){
   if (textEntered == directions){
     clearInterval(interval);
     testWrapper.style.borderColor = "#429890";
+  } else {
+    // if they match at char level change the border color
+    if (testEntered == textMatch)
+      testWrapper.style.borderColor = "#429890";
   }
 }
 
