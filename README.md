@@ -12,3 +12,6 @@ connect javascript to index class/id: -> has issues with the connections not wor
 
 functions to add:
 - make user change text 
+
+to fix:
+- test-wrapper is at side, not centered
