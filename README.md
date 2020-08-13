@@ -15,3 +15,5 @@ functions to add:
 
 to fix:
 - test-wrapper is at side, not centered
+- test the consts in .js -> they might not be connecting correctly
+- check the names of the ids and classes -> might be wrong and source of the connection problem
