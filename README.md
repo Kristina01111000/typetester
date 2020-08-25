@@ -11,7 +11,7 @@ connect javascript to index class/id: -> has issues with the connections not wor
 -  change inner html of text on click
 
 functions to add:
-- make user change text 
+- make user change text on click of button, by typing in the text box
 
 to fix:
 - test-wrapper is at side, not centered
