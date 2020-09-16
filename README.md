@@ -2,6 +2,8 @@
 test typing speed
 
 connect javascript to index class/id: -> has issues with the connections not working/ not working correctly
+None of the js is working right now, currently trying to fix timer
+
 -  text box change color when mismatched
 -  reset button
 -  timer (start, end, leading 0) 
